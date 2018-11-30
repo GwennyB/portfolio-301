@@ -1,0 +1,116 @@
+#header {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  position: fixed;
+}
+
+#main {
+  margin-left: 375px;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+    #header {
+      width: 300px;
+    }
+
+    #footer {
+      margin-left: 300px;
+    }
+
+    #main {
+      margin-left: 300px;
+    }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+  ul.icons li a {
+    width: 1.75em;
+  }
+
+  .item {
+    margin-bottom: 20px;
+  }
+}
+
+#headerToggle {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .item {
+    margin-bottom: 15px;
+  }
+
+  ul.icons a {
+    width: 1.75em;
+    font-size: 1.25em;
+  }
+
+  body.header-visible #main {
+    -moz-transform: translateX(275px);
+    -webkit-transform: translateX(275px);
+    -ms-transform: translateX(275px);
+    transform: translateX(275px);
+  }
+
+  body.header-visible #headerToggle {
+    -moz-transform: translateX(275px);
+    -webkit-transform: translateX(275px);
+    -ms-transform: translateX(275px);
+    transform: translateX(275px);
+  }
+
+  body.header-visible #header {
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  #footer {
+    margin-left: 0;
+  }
+
+  #main {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transition: -moz-transform 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    padding-bottom: 1px;
+    margin-left: 0;
+  }
+
+    #main > section {
+      padding: 3em 0;
+    }
+
+    #main section.cover {
+      padding: 4em 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+  .container {
+    padding: 0 15px 0 15px;
+  }
+  #main > section {
+    padding: 2em 0;
+  }
+
+  #main section.cover {
+    padding: 4em 0em;
+  }
+
+
+}
