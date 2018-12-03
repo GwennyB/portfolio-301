@@ -124,13 +124,19 @@
   // Carousel.
   $(".carousel").slick({
     dots: false,
+    arrows: false,
     infinite: true,
-    speed: 2000,
-    // cssEase: 'linear',
+    speed: 500,
+    cssEase: 'linear',
     autoplay: true,
     centerMode: true,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    variableWidth: true,
+    centerPadding: '50px',
+    rtl: true,
+    draggable: true,
+    initialSlide: 2
   });
 
 
