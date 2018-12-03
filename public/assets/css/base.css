@@ -195,6 +195,10 @@ ol {
     body, input, textarea, select {
       font-size: 16pt;
     }
+    
+    h2 {
+      font-size: 1.5em;
+    }
 
     .container {
       padding: 0 2em 0 2em;
@@ -209,6 +213,10 @@ ol {
 
     body, input, textarea, select {
       font-size: 16pt;
+    }
+
+    h2 {
+      font-size: 1.2em;
     }
 
     header br {
@@ -226,7 +234,7 @@ ol {
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     letter-spacing: 0;
     font-weight: 300;
   }

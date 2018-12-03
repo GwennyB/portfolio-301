@@ -34,7 +34,7 @@ section, header, footer {
   top: 0;
 }
 
-@media screen and (min-width: 739px) and (max-width: 1880px) {
+@media screen and (min-width: 1321px) and (max-width: 1880px) {
   #header {
     width: 375px;
   }
@@ -50,6 +50,21 @@ section, header, footer {
   }
 }
 
+@media screen and (min-width: 739px) and (max-width: 1320px) {
+  #header {
+    width: 300px;
+  }
+
+  #main {
+    margin: 0px 0px 0px 300px;
+    width: calc(100%-300px);
+  }
+
+  #footer {
+    margin: 3em 0px 0px 300px;
+    width: calc(100%-300px);
+  }
+}
 
 @media screen and (min-width: 481px) and (max-width: 738px) {
 
