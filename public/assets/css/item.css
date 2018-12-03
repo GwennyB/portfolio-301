@@ -13,3 +13,17 @@
     .item header h3 {
       font-size: 1em;
     }
+
+@media screen and (min-width: 739px) and (max-width: 1320px) {
+
+  .item {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 738px) {
+
+  .item {
+    margin-bottom: 15px;
+  }
+}
