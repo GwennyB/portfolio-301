@@ -1,3 +1,11 @@
+form .row {
+  display: block;
+}
+
+form input {
+  margin: 5px auto;
+}
+
 form label {
   display: block;
   text-align: left;
