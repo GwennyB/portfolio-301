@@ -1,4 +1,5 @@
 #header {
+  z-index: 10000;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -20,7 +21,9 @@
   position: fixed;
   text-align: right;
   top: 0;
-  width: 375px;
+  width: 20%;
+  min-width: 250px;
+  max-width: 350px;
 }
 
   #header .top {
