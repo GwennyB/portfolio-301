@@ -12,11 +12,12 @@
 
 	// Breakpoints.
 		breakpoints({
-			wide:      [ '961px',  '1880px' ],
-			normal:    [ '961px',  '1620px' ],
-			narrow:    [ '961px',  '1320px' ],
-			narrower:  [ '737px',  '960px'  ],
-			mobile:    [ null,     '736px'  ]
+			wide:      [ '739px',  '1880px' ],
+			normal:    [ '739px',  '1620px' ],
+			narrow:    [ '739px',  '1320px' ],
+			tablet:    [ '481px',  '738px'  ],
+			mobilels:	 [ '361px',  '480px'  ],
+			mobile:    [ null,     '360px'  ]
 		});
 
 	// Play initial animations on page load.
@@ -97,7 +98,7 @@
 	// Scrolly.
 		$('.scrolly').scrolly();
 
-	// Header (narrower + mobile).
+	// Header (mobile).
 
 		// Toggle.
 			$(
