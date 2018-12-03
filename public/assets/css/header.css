@@ -220,10 +220,10 @@
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-    -moz-transform: translateX(-250px);
-    -webkit-transform: translateX(-250px);
-    -ms-transform: translateX(-250px);
-    transform: translateX(-250px);
+    -moz-transform: translateX(-200px);
+    -webkit-transform: translateX(-200px);
+    -ms-transform: translateX(-200px);
+    transform: translateX(-200px);
     -moz-transition: -moz-transform 0.5s ease;
     -webkit-transition: -webkit-transform 0.5s ease;
     -ms-transition: -ms-transform 0.5s ease;
@@ -235,7 +235,6 @@
     overflow-y: auto;
     position: fixed;
     top: 0;
-    width: 250px;
     z-index: 10002;
     background: #222729 url("images/overlay.png");
     box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
