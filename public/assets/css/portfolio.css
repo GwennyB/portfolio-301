@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 738px) {
+@media screen (max-width: 480px) {
   
   .item {
     margin-bottom: 15px;
