@@ -136,7 +136,7 @@
     centerPadding: '50px',
     rtl: true,
     draggable: true,
-    initialSlide: 2
+    initialSlide: 2,
   });
 
 
