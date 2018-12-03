@@ -49,6 +49,7 @@
       font-size: 1em;
     }
 
+
 @media sreen and (min-width: 739px) and (max-width: 1320px) {
 
   .item {
@@ -58,7 +59,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 738px) {
+@media screen and (max-width: 480px) {
   
   .item {
     margin-bottom: 15px;
