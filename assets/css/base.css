@@ -1,3 +1,5 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 body {
 	-webkit-text-size-adjust: none;
@@ -19,8 +21,6 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
-
 
 html {
   box-sizing: border-box;
@@ -156,72 +156,4 @@ p, ul, ol, dl, table {
 
 br.clear {
   clear: both;
-}
-
-
-@media screen and (min-width: 961px) and (max-width: 1880px) {
-  body, input, textarea, select {
-      font-size: 17pt;
-    }
-
-}
-
-@media screen and (min-width: 961px) and (max-width: 1320px) {
-  body, input, textarea, select {
-    font-size: 16pt;
-  }
-
-  .container {
-    padding: 0 2em 0 2em;
-  }
-
-  #footer {
-    margin-left: 20%;
-  }
-
-  #main {
-    margin-left: 20%;
-  }
-}
-
-#headerToggle {
-  display: none;
-}
-
-@media screen and (max-width: 960px) {
-  html, body {
-    overflow-x: hidden;
-  }
-
-  body, input, textarea, select {
-    font-size: 16pt;
-  }
-
-  header br {
-    display: none;
-  }
-
-  .container {
-    padding: 0 2em 0 2em;
-  }
-
-
-}
-
-@media screen and (max-width: 736px) {
-  body, input, textarea, select {
-    font-size: 14pt;
-  }
-
-  h2 {
-    font-size: 1.5em;
-    letter-spacing: 0;
-    font-weight: 300;
-  }
-
-  ul.icons a {
-    width: 2em;
-    font-size: 1.25em;
-  }
-
 }
