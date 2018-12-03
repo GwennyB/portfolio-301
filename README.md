@@ -4,26 +4,26 @@ Photo carousel from http://kenwheeler.github.io/slick/.
 
 
 
-Lab 4: Personal Portfolio
+Lab 5: Extend your portfolio, Responsive web design
 
-Number and name of feature: Feature #1: Refactor the CSS
+## Assignment 1: Extend your portfolio
+Number and name of feature: Feature #1: Add functionality
 
-Estimate of time needed to complete: 60min
+Estimate of time needed to complete: 4 HOURS
 
-Start time: 9:10am
+Start time: 2:30pm
 
-Finish time: 10:10am
+Finish time: 11:00pm
 
-Actual time needed to complete: 60min
+Actual time needed to complete: 6.5 hours (with breaks)
 
+## Assignment 2: Responsive web design
+Number and name of feature: Feature #1: Responsive design
 
-Number and name of feature: Feature #2: Modify the contents
+Estimate of time needed to complete: 2 hours
 
-Estimate of time needed to complete: 2hr
+Start time: 11:00am
 
-Start time: 10:45am
+Finish time: 6:00pm
 
-Finish time: 1:00
-
-Actual time needed to complete: 2:15
-
+Actual time needed to complete: 5 hours (with breaks) - refactored the CSS from scratch
