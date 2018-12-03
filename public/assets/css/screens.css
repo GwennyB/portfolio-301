@@ -776,7 +776,7 @@
 
 		}
 
-		@media screen (min-width: 481px) and (max-width: 738px) {
+		@media screen and (min-width: 481px) and (max-width: 738px) {
 
 			.row {
 				display: flex;
