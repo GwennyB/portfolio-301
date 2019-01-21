@@ -4,4 +4,5 @@ This project is a template-based portfolio showcasing work samples from my acade
 
 # Credit
 Portfolio template from https://html5up.net/prologue.
+
 Photo carousel from http://kenwheeler.github.io/slick/.
